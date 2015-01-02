@@ -1,0 +1,39 @@
+# depslib dependency file v1.0
+1420145950 source:c:\users\teknoplan\documents\codeblocks\weatherstationdisplay\main.cpp
+	<iostream>
+	"WeatherData.h"
+	"CurrentConditionsDisplay.h"
+	"AnotherDisplay.h"
+
+1420145139 source:c:\users\teknoplan\documents\codeblocks\weatherstationdisplay\src\weatherdata.cpp
+	"WeatherData.h"
+
+1420142885 c:\users\teknoplan\documents\codeblocks\weatherstationdisplay\include\weatherdata.h
+	"Subject.h"
+	<list>
+
+1420124696 c:\users\teknoplan\documents\codeblocks\weatherstationdisplay\include\subject.h
+	"Observer.h"
+
+1420128516 c:\users\teknoplan\documents\codeblocks\weatherstationdisplay\include\observer.h
+
+1420146241 source:c:\users\teknoplan\documents\codeblocks\weatherstationdisplay\src\currentconditionsdisplay.cpp
+	"CurrentConditionsDisplay.h"
+	<iostream>
+
+1420143495 c:\users\teknoplan\documents\codeblocks\weatherstationdisplay\include\currentconditionsdisplay.h
+	<Observer.h>
+	<DisplayElement.h>
+	<Subject.h>
+
+1420123950 c:\users\teknoplan\documents\codeblocks\weatherstationdisplay\include\displayelement.h
+
+1420146216 source:c:\users\teknoplan\documents\codeblocks\weatherstationdisplay\src\anotherdisplay.cpp
+	"AnotherDisplay.h"
+	<iostream>
+
+1420145841 c:\users\teknoplan\documents\codeblocks\weatherstationdisplay\include\anotherdisplay.h
+	<Observer.h>
+	<DisplayElement.h>
+	<Subject.h>
+
